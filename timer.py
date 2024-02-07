@@ -17,7 +17,7 @@ import random
 print("Players Stand!!")
 
 # sleeps for random time between 5-25 sec 
-time.sleep(randint(5, 25))
+time.sleep(random.randint(5, 25))
 
 # sleep is over program displays time up
 print("Times Up!!! Last to sit down wins!")
